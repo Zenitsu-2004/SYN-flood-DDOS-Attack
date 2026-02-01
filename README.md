@@ -49,51 +49,6 @@ PROJECT/
 
 ---
 
-## How to Run the Project
-
-### Step 1: Activate Virtual Environment
-```bash
-.\.venv\Scripts\activate
-
-### Step 2: Install Dependencies
-pip install flask pandas joblib scikit-learn fpdf
-
-### Step 3: Run the Web Application
-python src/app.py
-
-### Step 4: Open in Browser
-http://127.0.0.1:5000
-
----
-
-## Features
-
-Real-time SYN flood detection
-ML + Rule-based hybrid system
-KPI dashboard
-Attack vs Benign charts
-Database logging
-Export to PDF & CSV
-Professional web interface
-
----
-
-## Outputs & Results
-
-Detection input/output screenshots
-KPI cards (Total checks, Attacks, Benign)
-Line graph: Threat score trend
-Pie chart: Attack vs Benign
-Bar chart: Cumulative trend
-SQLite logs table
-
----
-
 ## Google Drive Assets
 
 👉 [Google Drive Link](https://drive.google.com/drive/folders/1xOgzf7MHQS7ABuCT3045WyAxbP_IBaX9?usp=sharing)
-
-## Conclusion
-This system successfully demonstrates how Machine Learning combined with rule-based logic can effectively detect SYN flood DDoS attacks.
-The integration of database logging and real-time dashboard makes the solution practical and suitable for real-world cybersecurity applications.
-
